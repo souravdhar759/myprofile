@@ -33,3 +33,35 @@ body{
     font-weight: 400;
     z-index: 10;
 }
+
+
+.body{
+    background-color: black;
+} 
+.box{
+   
+    box-shadow: rgba(0, 255, 255, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 255, 0.12) 0px 4px 6px, rgba(0, 255, 255, 0.17) 0px 12px 13px, rgba(0, 255, 255, 0.09) 0px -3px 5px;
+   
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.youtube>iframe{
+    margin: 10%;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 255, 255);
+    box-shadow: rgba(0, 255, 255, 0.25) 0px 54px 55px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 255, 0.12) 0px 4px 6px, rgba(0, 255, 255, 0.17) 0px 12px 13px, rgba(0, 255, 255, 0.09) 0px -3px 5px;
+}
+.navii{
+    border: 1px solid rgb(0, 255, 255);
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 30%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.5);
+    font-weight: 500;
+       
+}
