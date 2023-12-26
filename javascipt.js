@@ -65,4 +65,10 @@ gsap.to("#page>video",{
     //     tl.to("#page>h1",{
     //       top:`-50%`
     //   })
-     
+    let clip = document.querySelector(".vid")
+    clip.addEventListener("mouseover", function (e) {
+      clip.play();
+   })
+   clip.addEventListener("mouseout", function (e) {
+    clip.pause();
+ })
