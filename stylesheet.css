@@ -204,19 +204,7 @@ border: 1px solid #00ffff;
     width: 500px;
     height: 500px;
 }
-/* @media only screen and (max-width:425px) {
-    .skills{
-        width: 100px;
-        height: 100px;
-    
-    }
-    .skills>h2{
-        
-        font-weight: 800;
-       
-        font-size: 10px;
-    }
-} */
+
 .footer{
 
     display: flex;
@@ -279,4 +267,29 @@ border: 1px solid #00ffff;
     color: rgb(231, 231, 231);
      
     
+}
+@media only screen and (max-width: 655px) {
+    .skills{
+        width: 100px;
+        height: 100px;
+       
+    }
+    .skills>h2{
+        font-weight: 800;
+        transition: all ease o.5s;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .skills{
+        width: 70px;
+        height: 70px;
+       
+    }
+    .skills>h2{
+        font-weight: 800;
+        transition: all ease o.5s;
+        font-size: 8px;
+    }
 }
